@@ -1,0 +1,17 @@
+{
+  "name": "pars-m13-arac-kamerasi-web",
+  "version": "1.0.1",
+  "private": true,
+  "description": "PARS M13 Araç Kamerası için Vercel'e hazır statik tanıtım sayfası.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 -d public",
+    "build": "node -e \"console.log('Static site ready in public/');\""
+  },
+  "keywords": [
+    "PARS M13",
+    "araç kamerası",
+    "mobil nvr",
+    "Vercel",
+    "static-site"
+  ]
+}
