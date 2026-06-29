@@ -1,0 +1,9 @@
+Vercel must see this exact path after build:
+
+public/index.html
+
+If Vercel still says "No Output Directory named public found":
+1. Check Project Settings > General > Root Directory.
+2. Root Directory must be empty or the folder containing vercel.json.
+3. Do not set Root Directory to public.
+4. Make sure your GitHub repo/ZIP first level contains public/, package.json, vercel.json, and build.cjs.
